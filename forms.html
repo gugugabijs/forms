@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="oneBox">
+        <form id="form1">
+          <div class="formGroup">
+            <p>Email</p>
+            <input class="inputClass" type="mail" placeholder="Enter text" />
+          </div>
+          <div class="GroupForLabel">
+            <p>Ship to</p>
+            <div class="radioGroup">
+              <input type="radio" id="option1" />
+              <label for="option1">221 Baker St., London, U.K.</label>
+            </div>
+            <div class="radioGroup">
+              <input type="radio" id="option2" />
+              <label for="option2">32 Windsor Gardens, London, U.K.</label>
+            </div>
+            <div class="radioGroup">
+              <input type="radio" id="option3" />
+              <label for="option3">17 Cherry Tree Lane, London, U.K.</label>
+            </div>
+          </div>
+          <div class="GroupForLabel">
+            <p>Delivery</p>
+            <div class="radioGroup">
+              <input type="radio" id="option1" />
+              <label for="option1">Standard Shipping</label>
+            </div>
+            <div class="radioGroup">
+              <input type="radio" id="option2" />
+              <label for="option2">2-Day Shipping</label>
+            </div>
+            <div class="radioGroup">
+              <input type="radio" id="option3" />
+              <label for="option3">Overnight Shipping</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="twoBox">
+        <form class="group">
+          <div class="formGroup">
+            <input class="inputClass" type="text" placeholder="Name" />
+          </div>
+          <div class="formGroup">
+            <input class="inputClass" type="mail" placeholder="Email" />
+          </div>
+          <div class="formGroup">
+            <input class="inputClass" type="password" placeholder=" Password" />
+          </div>
+          <div class="formGroup">
+            <input type="checkbox" id="feature" />
+            <label for="feature"
+              >I would like to recieve a monthly newsletter</label
+            >
+          </div>
+        </form>
+      </div>
+      <div id="threeBox">
+        <form class="group">
+          <div class="formGroup">
+            <label for="Name">First Name <span class="star">*</span></label>
+            <input class="inputClass" type="text" placeholder=" Enter text"  required id="Name"/>
+          </div>
+          <div class="formGroup">
+            <label for="LastName">Last Name <span class="star">*</span></label>
+            <input class="inputClass" type="text" placeholder="Enter text" required id="Last Name" />
+          </div>
+          <div class="formGroup">
+            <label for="Company">Company</label>
+            <input class="inputClass" type="text" placeholder=" Enter text" id="Company" />
+          </div>
+          <div class="formGroup">
+            <label for="Address">Address <span class="star">*</span></label>
+            <input class="inputClass" type="text" placeholder=" Enter text" required id="Address" />
+          </div>
+          <div class="formGroup">
+            <label for="details">Apartment, Suit, etc.</label>
+            <input class="inputClass" type="text" placeholder=" Enter text" id="details" />
+          </div>
+          <div class="formGroup">
+            <label for="City">City <span class="star">*</span></label>
+            <input class="inputClass" type="text" placeholder=" Enter text" required id="City" />
+          </div>
+          <div class="formGroup">
+            <label for="Country/Region">Country / Region <span class="star">*</span></label>
+            <input class="inputClass" type="text" placeholder=" Enter text" required id="Country/Region" />
+          </div>
+        
+   
+        </div>
+      <div id="fourBox">
+        <div class="group">
+          <div id="radioFour">
+            <div class="formGroup" style="margin-right: 30px;">
+              <input  type="radio" id="OneWay" />
+              <label for="oneWay">One Way</label>
+            </div>
+            <div class="formGroup">
+              <input  type="radio" id="secondWay" />
+              <label for="secondWay">Round Trip</label>
+            </div>
+          </div>
+        
+          <div class="formGroup">
+            <label>From
+              <select class="inputClass">
+                  <option value="" disabled selected>Select  option</option>
+                  <option value="first">The only possible option dude</option>
+              </select>
+              </label>
+          </div>
+          <div class="formGroup">
+            <label>To
+              <select class="inputClass">
+                  <option value="" disabled selected>Select  option</option>
+                  <option value="first">AGAIN. The only possible option dude</option>
+              </select>
+              </label>
+          </div>
+          <div class="formGroup">
+            <label for="Date">Departure</label>
+            <input class="inputClass" type="date" id="Date"/>
+          </div>
+          <div class="formGroup">
+            <label for="Date">Return</label>
+            <input class="inputClass" type="date" id="Date"/>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>

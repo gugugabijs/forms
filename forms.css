@@ -1,0 +1,57 @@
+#form1{
+    border: 12px solid #FED132;
+    box-shadow: 16px 16px #236DF6;
+    padding: 32px 24px 40px;
+    width: 400px;
+    height: 500px;
+}
+.inputClass{
+    width: 344px;
+    height: 41px;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    padding-left: 12px;
+}
+.GroupForLabel{
+    margin-top: 50px;
+}
+.radioGroup{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#main{
+    display: flex;
+}
+.formGroup{
+    margin-top: 25px;
+}
+#twoBox{
+    border:12px solid #FF6641;
+    box-shadow: 16px 16px #236DF6;
+    width: 380px;
+    height: 300px;
+    margin-left: 120px;
+    padding: 32px 24px 40px 24px;
+}
+.star{
+    color: red;
+}
+#threeBox{
+    border: 12px solid #FED132;
+    box-shadow: 16px 16px #236DF6;
+    padding: 32px 24px 40px;
+    margin-left: 120px;
+}
+#radioFour{
+    display: flex;
+    padding-left: 15px;
+}
+#fourBox{
+    border:12px solid #FF6641;
+    box-shadow: 16px 16px #236DF6;
+    width: 450px;
+    height: 500px;
+    margin-left: 120px;
+    padding: 32px 24px 40px 24px;
+}
